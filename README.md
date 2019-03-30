@@ -1,3 +1,7 @@
+1. [Section 2](#section-2)
+
+## Section 2 
+
 ES6 has some features that aren't widely used. By using compiler like **Babel**, we can translate the next generation js code to ES5 code, which is supported by most of popular browsers.
 
 New features included:
@@ -40,5 +44,3 @@ New features included:
       age: 22,
   }
   ```
-
-  
