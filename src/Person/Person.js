@@ -1,12 +1,13 @@
 import React from "react";
 
-const person = (Prop) => {
+const person = (prop) => {
     return (
-        <div>
-            <p>I am a person! I'm {Prop.age} years old. My name is {Prop.name} </p>
-            {Prop.children}
+        <div onClick={prop.click}>
+            <p>I am a person! I'm {prop.age} years old. My name is {prop.name} </p>
+            <p>{prop.children}</p>
+            <input type="text" onChange={prop.change} value={prop.name} />
         </div>
     )
-}
+};
 
 export default person;
